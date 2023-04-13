@@ -1,0 +1,40 @@
+header{
+    background-color: #d67418;
+    text-align: center;
+    margin: 0px;
+}
+nav{
+    background-color: #d67418;
+    overflow: hidden;
+    display:flex;
+    justify-content:center;
+}
+#navegador ul{
+    list-style-type: none;
+    text-align: center;
+ }
+ #navegador li{
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px 0 0;
+ }
+ #navegador li a {
+    padding: 2px 7px 2px 7px;
+    color: #000000;
+    background-color: #b5b1ac;
+    text-decoration: none;
+    float: left;
+ }
+ #navegador li a:hover{
+    background-color: #000000;
+    color: #ffffff;
+ }
+#ingresos{
+    background-color: #b5b1ac;
+}
+.iniciar {
+    flex-flow: row wrap;/* agrupa las 2 propieades anteriores */
+    justify-content: center;
+    align-items: flex-end;
+
+}
